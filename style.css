@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(127, 140, 255);
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+ul {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 20px;
+}
+
+.header button {
+    position: absolute;
+    right: 18%;
+    margin-top: -30px;
+  } 
+  
+  .header i {
+    font-size: 22px;
+}
+
+.to-do {
+    margin-top: 40px;
+    width: 60%;
+}
+
+.textInsert {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    width: 90%;
+}
+
+.divInsert {
+    padding: 10px;
+    background-color: rgb(141, 225, 255);
+    border-radius: 10px;
+    display: flex;
+    box-shadow: 6px 5px 10px 0px rgb(23, 154, 214);
+}
+
+button {
+    width: 10%;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.bx-plus {
+    font-size: 30px;
+    margin-left: 10px;
+    background-color:  rgb(127, 140, 255);
+    border-radius: 50%;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+}
+
+.divLi {
+    margin-top: 20px;
+    padding: 10px;
+    background:  rgb(179, 235, 255);
+    border-radius: 10px;
+    box-shadow: 6px 5px 10px 0px rgb(23, 154, 214);
+    display: flex;
+    align-items: center;
+}
+
+.divLi span {
+    width: 80%;
+    color: rgb(0, 0, 0);
+  }
+  
+  .divLi input {
+    width: 10%;
+    outline: none;
+    accent-color: currentcolor;
+}
+
+.divLi i {
+    font-size: 22px;
+    color: rgb(252, 0, 0);
+}
+
+li {
+    list-style-type: none;
+  }
+  
+  .line-through {
+    text-decoration: line-through;
+  }
+  
+  @media (max-width: 775px) {
+    input {
+      width: 70%;
+    }
+  
+    .divInsert button {
+      width: 30%;
+    }
+  
+    i {
+      font-size: 30px;
+      padding: 0px;
+    }
+  
+    p {
+      font-size: x-large;
+    }
+}
